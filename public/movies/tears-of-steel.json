@@ -1,0 +1,24 @@
+{
+  "id": "tears-of-steel",
+  "title": "Tears of Steel",
+  "year": 2012,
+  "duration": "12m 14s",
+  "durationSeconds": 734,
+  "genres": ["Sci-Fi", "Action"],
+  "rating": 8.9,
+  "quality": "4K",
+  "description": "In a dystopian future set in Amsterdam, a group of rebel warriors and scientists stage an audacious mission to reset humanity by reconnecting with a giant cybernetic entity.",
+  "director": "Ian Hubert",
+  "cast": ["Derek de Lint", "Sergio Hasselbaink", "Rogan Kelly", "Vanja Rukavina"],
+  "posterUrl": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80",
+  "backdropUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1600&auto=format&fit=crop&q=80",
+  "license": "Creative Commons 3.0 (Blender Open Movie)",
+  "isFeatured": true,
+  "iframe": {
+    "src": "https://archive.org/embed/Tears-of-Steel",
+    "html": "<iframe src=\"https://archive.org/embed/Tears-of-Steel\" width=\"100%\" height=\"100%\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"></iframe>",
+    "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+    "allowFullscreen": true,
+    "sandbox": "allow-scripts allow-same-origin allow-presentation allow-forms"
+  }
+}

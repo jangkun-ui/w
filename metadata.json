@@ -1,0 +1,8 @@
+{
+  "name": "MovieHub",
+  "description": "A fast, unblocked movie streaming web app storing each movie as an iframe JSON file, featuring tab cloaking, panic mode, theater player, and JSON import/export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

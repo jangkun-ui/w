@@ -1,0 +1,24 @@
+{
+  "id": "trip-to-the-moon",
+  "title": "A Trip to the Moon (Le Voyage dans la Lune)",
+  "year": 1902,
+  "duration": "12m 52s",
+  "durationSeconds": 772,
+  "genres": ["Sci-Fi", "Classics"],
+  "rating": 8.6,
+  "quality": "Classic",
+  "description": "The foundational science fiction film in cinematic history by illusionist Georges Méliès. A guild of astronomers launch themselves to the Moon inside a giant cannon capsule.",
+  "director": "Georges Méliès",
+  "cast": ["Georges Méliès", "Bleuette Bernon", "François Lallement"],
+  "posterUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&auto=format&fit=crop&q=80",
+  "backdropUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&auto=format&fit=crop&q=80",
+  "license": "Public Domain Pioneer (1902)",
+  "isFeatured": false,
+  "iframe": {
+    "src": "https://archive.org/embed/Levoyagedanslalune",
+    "html": "<iframe src=\"https://archive.org/embed/Levoyagedanslalune\" width=\"100%\" height=\"100%\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"></iframe>",
+    "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+    "allowFullscreen": true,
+    "sandbox": "allow-scripts allow-same-origin allow-presentation allow-forms"
+  }
+}
