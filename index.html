@@ -3,12 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>MovieHub</title>
     <meta name="description" content="A fast, unblocked movie streaming web app storing each movie as an iframe JSON file, featuring tab cloaking, panic mode, theater player, and JSON import/export." />
     <meta property="og:title" content="MovieHub" />
     <meta property="og:description" content="A fast, unblocked movie streaming web app storing each movie as an iframe JSON file, featuring tab cloaking, panic mode, theater player, and JSON import/export." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Compatibility fallback for browser extensions inspecting React 18 internals on React 19
+      try {
+        window.React = window.React || {};
+        if (!window.React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED) {
+          window.React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = {
+            ReactCurrentOwner: { current: null },
+            ReactCurrentDispatcher: { current: null },
+            ReactCurrentBatchConfig: { transition: null }
+          };
+        }
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>
